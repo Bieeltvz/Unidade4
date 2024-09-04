@@ -1,4 +1,5 @@
 package Unidade4;
+
 import java.util.Scanner;
 
 public class Uni4Exe03 {
@@ -8,13 +9,34 @@ public class Uni4Exe03 {
         int valor1 = teclado.nextInt();
         System.out.println("Entre com o segundo valor: ");
         int valor2 = teclado.nextInt();
-        if (valor1 > valor2){
-            System.out.println("A primeira entrada é maior.");
-        } else{ 
-            System.out.println("A segunda entrada é maior.");
+        if (valor1 > valor2) {
+            System.out.println("O maior é: " + valor1);
+        } else {
+            System.out.println("O maior é: " + valor2);
         }
-        String teste = valor1 > valor2 ? "primeira entrada é maior." : "segunda entrada é maior.";
-        System.out.printf("A %s", teste);
-    }
+
+        if (valor1 == valor2) {
+            System.out.println("São iguais: " + valor1);
+        } else if (valor1 > valor2) {
+            System.out.println("O maior é: " + valor1);
+        } else {
+            System.out.println("O maior é: " + valor2);
+
+        }
+
+        System.out.println("--------------------------------");
+
+        if (valor1 == valor2) {
+            System.out.println("São iguais: " + valor1);
+        } else {
+            if (valor1 > valor2) {
+                System.out.println("O maior é: " + valor1);
+            } else {
+                System.out.println("O maior é: " + valor2);
+            }
+        }
+        System.out.println("O maior é: " + (valor1 == valor2 ? "iguais " + valor1 : valor1 > valor2 ? valor1 : valor2));
     
+    }
+
 }

@@ -25,6 +25,7 @@ public class Uni4Exe04 {
         } else {
             System.out.println("O numero não possui casas decimais.");
         }
+        //floor retorna inteiro em forma decimal, converte no menor inteiro q pode ser igual ao numero.
 
 
     }

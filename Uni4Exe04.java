@@ -12,8 +12,15 @@ public class Uni4Exe04 {
         } else {
             System.out.println("O numero não possui casas decimais.");
         }
-        
+
         if (num % 1 != 0){
+            System.out.println("O numero possui casas decimais.");
+        } else {
+            System.out.println("O numero não possui casas decimais.");
+        }
+
+
+        if (num - Math.floor(num) != 0){
             System.out.println("O numero possui casas decimais.");
         } else {
             System.out.println("O numero não possui casas decimais.");

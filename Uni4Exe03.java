@@ -1,5 +1,3 @@
-package Unidade4;
-
 import java.util.Scanner;
 
 public class Uni4Exe03 {
@@ -36,7 +34,7 @@ public class Uni4Exe03 {
             }
         }
         System.out.println("O maior é: " + (valor1 == valor2 ? "iguais " + valor1 : valor1 > valor2 ? valor1 : valor2));
-    
+        teclado.close();
     }
 
 }

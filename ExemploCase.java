@@ -1,5 +1,3 @@
-package Unidade4;
-
 public class ExemploCase {
     public static void main(String[] args) {
         int numero = 2;

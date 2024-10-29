@@ -1,5 +1,3 @@
-package Unidade4;
-
 import java.util.Scanner;
 
 public class Uni4Exe04 {
@@ -26,6 +24,7 @@ public class Uni4Exe04 {
         }
         // floor retorna inteiro em forma decimal, converte no menor inteiro q pode ser
         // igual ao numero.
+
         teclado.close();
     }
 

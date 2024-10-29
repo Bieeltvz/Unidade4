@@ -1,4 +1,3 @@
-package Unidade4;
 import java.util.Scanner;
 
 public class Uni4Exe14 {
@@ -26,3 +25,4 @@ public class Uni4Exe14 {
     
 }
 //nome.equals(x); se nome for igual a X retorna true, se nao retorna false
+

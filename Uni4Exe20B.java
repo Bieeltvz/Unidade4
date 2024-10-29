@@ -1,6 +1,3 @@
-package Unidade4;
-
-
 import java.util.Scanner;
 
 public class Uni4Exe20B {

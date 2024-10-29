@@ -1,4 +1,3 @@
-package Unidade4;
 import java.util.Scanner;
 
 public class Uni4Exe21 {
@@ -25,9 +24,6 @@ public class Uni4Exe21 {
         }
         System.out.printf("Seu grau de obesidade é %s%n", classificacao);
         teclado.close();
-        }
-
-        
+        }       
     }
     
-

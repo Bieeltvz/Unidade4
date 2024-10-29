@@ -1,5 +1,3 @@
-package Unidade4;
-
 import java.util.Scanner;
 
 public class Uni4Exe26 {
@@ -10,8 +8,8 @@ public class Uni4Exe26 {
         System.out.println("Q:calcular a area de um quadrado de lado I");
         System.out.println("R:calcular a area de um retangulo de base b e altura");
         System.out.println("C:calcular a area de um circulo de raio r");
-        char opcao = Character.toUpperCase(teclado.next().charAt(0));
-        //teclado.next().toUpperCase().charAt(0);
+        char opcao = teclado.next().toUpperCase().charAt(0);
+        //Character.toUpperCase().teclado.next().charAT(0);
         if(opcao == 'T'){
             System.out.println("Digite a base e a altura do triangulo");
             double base = teclado.nextDouble();
